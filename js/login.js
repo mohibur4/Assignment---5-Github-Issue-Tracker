@@ -36,7 +36,7 @@ function handleLogin() {
     btn.disabled = true;
     localStorage.setItem('isLoggedIn', 'true');
     setTimeout(() => {
-      window.location.href = 'dashboard.html';
+      window.location.href = '../dashboard.html';
     }, 800);
 
   } else {
